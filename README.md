@@ -14,4 +14,4 @@ If a change is now performed to the function's code and the app is deployed, the
 
 ## Local execution
 
-A script has been prepared to enable local execution of the function. Simply run the script `scripts/local.sh` to locally execute your function.
+A script has been prepared to enable local execution of the function. Simply run the script `scripts/local.sh` to locally execute your function. The function will use SAM CLI to create a local execution environment for your function.

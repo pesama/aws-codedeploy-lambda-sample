@@ -5,7 +5,7 @@ project_dir="${script_dir}/.."
 echo "INFO: Starting API monitoring. This script requires jq."
 
 # If you modify the stack name change this too
-stack_name="FunctionStack"
+stack_name="AWSLambdaCodeDeploySample"
 
 echo "INFO: Fetching API url"
 stack_description=$(aws cloudformation describe-stacks --stack-name ${stack_name} --output json)
